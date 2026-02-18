@@ -7,7 +7,7 @@ MODEL_PATH = "models/asthma_model.pkl"
 ENC_PATH = "models/asthma_label_encoders.pkl"
 
 def run():
-    st.title("🌬️ Asthma Risk Prediction")
+    st.title("Asthma Risk Prediction")
 
     if not os.path.exists(MODEL_PATH) or not os.path.exists(ENC_PATH):
         st.error("Model not trained yet. Please run train_asthma_model.py first.")

@@ -8,7 +8,7 @@ PIPE_PATH = "D:/disease-predictor/disease-predictor/models/sleep_pipeline.pkl"
 LE_PATH = "D:/disease-predictor/disease-predictor/models/sleep_label_encoder.pkl"
 
 def run():
-    st.title("🛌 Sleep Disorder Prediction")
+    st.title("Sleep Disorder Prediction")
     st.write("Enter user details to predict likely sleep disorder.")
 
     # Load pipeline and label encoder

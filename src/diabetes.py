@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 def run():
-    st.title("🩺 Diabetes Risk Prediction")
+    st.title("Diabetes Risk Prediction")
     
     try:
         model = joblib.load('D:/disease-predictor/disease-predictor/models/real_model.pkl')

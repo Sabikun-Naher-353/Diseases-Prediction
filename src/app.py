@@ -1,22 +1,19 @@
 import streamlit as st
 
-st.title("🩺 Welcome to Health Risk Predictor")
+st.title("Welcome to Health Risk Predictor")
 st.write("Select the disease you want to check:")
 
 st.sidebar.title("Choose Disease")
 disease = st.sidebar.radio(
     "Go to:",
-    ["Home", "Diabetes", "Cardio Attack", "Asthma", "Hypertension","Sleep Dis-order"]
+    ["Home", "Diabetes", "Asthma", "Hypertension","Sleep Dis-order"]
 )
 
 if disease == "Home":
-    st.write("🏠 This is the home page. Click a disease on the sidebar to check your risk.")
+    st.write("This is the home page. Click a disease on the sidebar to check your risk.")
 elif disease == "Diabetes":
     import diabetes
     diabetes.run()
-elif disease == "Cardio Attack":
-    import cardio
-    cardio.run()
 elif disease == "Asthma":
     import asthma
     asthma.run()

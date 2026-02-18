@@ -10,7 +10,7 @@ ENC_PATH = "D:/disease-predictor/models/stroke_label_encoders.pkl"
 IMPUTER_PATH = "D:/disease-predictor/models/stroke_imputer.pkl"
 
 def run():
-    st.title("🧠 Stroke Risk Prediction")
+    st.title("Stroke Risk Prediction")
     st.write("Enter the patient details below:")
 
     # Load model, encoders and imputer
