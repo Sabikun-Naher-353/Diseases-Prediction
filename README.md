@@ -1,5 +1,4 @@
 Health Risk Predictor
-
 Machine Learning–Based Disease Risk Prediction System
 
 Overview
@@ -28,7 +27,7 @@ Each disease is handled by an independent machine learning model to ensure bette
 
 Application Concept
 
-The system follows a simple and logical workflow:
+The system follows a simple and logical workflow.
 
 The user opens the application and selects a disease from the sidebar.
 The system displays a disease-specific input interface.
@@ -66,5 +65,7 @@ Scikit-learn
 Pandas
 NumPy
 Joblib and Pickle
+Git Large File Storage for model management
+
 
 Video Link: https://drive.google.com/file/d/1MtsVDsFyYko6E_6Tncqwmf3ucHRLWR_p/view?usp=sharing
